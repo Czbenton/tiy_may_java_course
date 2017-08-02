@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>look at me</title>
+</head>
+<body>
+
+<h1>this is my home page</h1>
+
+<h3> My name is <span th:text="${person.name}"></span></h3>
+
+<h3> My website is <span th:text="${person.contactInfo.website}"></span></h3>
+
+<h3> My birthday is <span th:text="${birthday}"></span></h3>
+
+</body>
+</html>
